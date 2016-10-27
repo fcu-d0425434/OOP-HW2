@@ -13,8 +13,7 @@ public class KeyboardScanner {
 		String c;
 		System.out.println("please enter a string");
 		c=scanner.next();
-		System.out.println("HI "+ c + ",the multiplication of "+ a + " and " 
-		+ b + " is " +  (a*b));
+		System.out.printf("HI "+ c + ",the multiplication of "+ a + " and " + b + " is " + "%1.2e",a*b);
 	}
 
 }
